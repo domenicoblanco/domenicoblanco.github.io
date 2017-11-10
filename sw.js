@@ -7,7 +7,7 @@ var urlsToCache = [
     '/',
     '/index.html',      
     '/blog/',
-    '/content/manifest/manifest_webapp.json',
+    '/content/manifest/webapp.json',
     '/content/manifest/manifest_notpush.json',
     '/content/img/logo.png',
     '/content/img/IMG_0185.jpg',
