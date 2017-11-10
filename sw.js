@@ -2,10 +2,11 @@
 layout: null
 ---
 
-var cacheName = 'wandk-cache-v1.1';
+var cacheName = 'wandk-cache-v1.2';
 var urlsToCache = [
     '/',
-    '/index.html',      
+    '/index.html',
+    '/layout/index.html',
     '/blog/',
     '/manifest/webapp.json',
     '/manifest/manifest_notpush.json',
@@ -39,6 +40,7 @@ var urlsToCache = [
 ];
 
 navigateFallback: '/index.html',
+<<<<<<< HEAD
   runtimeCaching: [
     {
       urlPattern: /.*\?static\=true/,
@@ -67,6 +69,10 @@ navigateFallback: '/index.html',
     },
   ]
   
+=======
+
+
+>>>>>>> 97539bc90a80fdbf85ab9546d56b55b850840c31
 self.addEventListener('install', function(event) {
   // Perform install steps
   event.waitUntil(
