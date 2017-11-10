@@ -38,6 +38,35 @@ var urlsToCache = [
     '/css/style.blue.css'
 ];
 
+navigateFallback: '/index.html',
+  runtimeCaching: [
+    {
+      urlPattern: /.*\?static\=true/,
+      handler: 'networkOnly',
+      options: { },
+    },
+    {
+      urlPattern: /\/images\/.*/,
+      handler: 'cacheFirst',
+      options: {
+        cache: {
+          maxEntries: 200,
+          name: 'image-cache',
+        },
+      },
+    },
+    {
+      urlPattern: /\/data\/.*/,
+      handler: 'fastest',
+      options: {
+        cache: {
+          maxEntries: 200,
+          name: 'data-cache',
+        },
+      },
+    },
+  ]
+  
 self.addEventListener('install', function(event) {
   // Perform install steps
   event.waitUntil(
