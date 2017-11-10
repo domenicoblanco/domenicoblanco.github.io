@@ -1,7 +1,7 @@
 ---
 title: "L'Odore della Notte"
 date: 2017-07-15T22:59:21+01:00
-image: /img/IMG_0156.jpg
+image: /img/IMG_0156.webp
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Marzamemi"
 date: 2017-04-13T19:28:12+01:00
-image: /img/image.jpg
+image: /img/image.webp
 draft: false
 ---
 

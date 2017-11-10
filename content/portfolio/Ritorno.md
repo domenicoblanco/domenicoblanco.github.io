@@ -1,7 +1,7 @@
 ---
 title: "Ritorno"
 date: 2017-09-03T02:39:19+01:00
-image: "/img/ritorno.jpg"
+image: "/img/ritorno.webp"
 draft: false
 ---
 

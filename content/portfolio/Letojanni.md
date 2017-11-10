@@ -1,7 +1,7 @@
 ---
 title: "Letojanni"
 date: 2017-08-19T19:23:54+01:00
-image: /img/IMG_0183.jpg
+image: /img/IMG_0183.webp
 draft: false
 ---
 
