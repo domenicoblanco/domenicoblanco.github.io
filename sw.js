@@ -2,15 +2,15 @@
 layout: null
 ---
 
-var cacheName = 'wandk-cache-v1.0';
+var cacheName = 'wandk-cache-v1.1';
 var urlsToCache = [
     '/',
     '/index.html',      
     '/blog/',
-    '/content/manifest/webapp.json',
-    '/content/manifest/manifest_notpush.json',
-    '/content/img/logo.png',
-    '/content/img/IMG_0185.jpg',
+    '/manifest/webapp.json',
+    '/manifest/manifest_notpush.json',
+    '/img/logo.png',
+    '/img/IMG_0185.jpg',
     '/js/bootstrap.min.js',
     '/js/ekko-lightbox.js',
     '/js/front.js',
