@@ -1,0 +1,16 @@
+baseURL = "https://wandbk.tk/"
+languageCode = "it"
+title = "Wandere Biker"
+theme = "theme"
+publishDir = ""
+
+[params]
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "blue"
+  description = "Ritengo che le esperienze in moto siano tra le più belle e formative sotto vari ambiti... Perché non condividerle?"
+  sidebarAbout = []
+[params.social]
+ facebook      = "https://www.facebook.com/domenico.blanco.16"
+ instagram     = "https://instagram.com/iosonododo/"
+ github        = "https://github.com/domenicoblanco"

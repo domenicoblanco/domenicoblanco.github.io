@@ -1,0 +1,14 @@
+{
+	"short_name": "Wandere Biker",
+	"name": "WandBk",
+	"start_url": "https://wandbk.tk",
+	"icons": [{
+		"src": "/img/logo.png",
+		"sizes": "1024x1024",
+		"type": "image/png"
+	}],
+	"theme_color": "#7C92A7",
+	"background_color": "#7C92A7",
+	"display": "standalone",
+	"orientation": "portrait-primary"
+}

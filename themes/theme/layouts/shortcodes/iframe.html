@@ -1,0 +1,5 @@
+{{ if .IsNamedParams }}
+	<iframe src="{{.Get "src" }}" height="800" width="100%" style="border:0"></iframe>
+{{ else }}
+	<iframe src="https://box.24hassistance.com/FB-Track.aspx?{{.Get 0}}" height="800" width="100%" style="border:0"></iframe>
+{{ end }}
