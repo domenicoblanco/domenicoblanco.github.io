@@ -39,8 +39,6 @@ var urlsToCache = [
     '/css/style.blue.css'
 ];
 
-navigateFallback: '/index.html',
-
 self.addEventListener('install', function(event) {
   // Perform install steps
   event.waitUntil(
