@@ -5,7 +5,8 @@ layout: null
 var cacheName = 'wandk-cache-v1.1';
 var urlsToCache = [
     '/',
-    '/index.html',      
+    '/index.html',
+    '/layout/index.html',
     '/blog/',
     '/manifest/webapp.json',
     '/manifest/manifest_notpush.json',
@@ -37,6 +38,9 @@ var urlsToCache = [
     '/css/owl.transitions.css',
     '/css/style.blue.css'
 ];
+
+navigateFallback: '/index.html',
+
 
 self.addEventListener('install', function(event) {
   // Perform install steps
