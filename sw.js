@@ -2,11 +2,10 @@
 layout: null
 ---
 
-var cacheName = 'wandk-cache-v1.21';
+var cacheName = 'wandk-cache-v1.22';
 var urlsToCache = [
     '/',
     '/index.html',
-    '/layout/index.html',
     '/blog/',
     '/manifest/webapp.json',
     '/manifest/manifest_notpush.json',
