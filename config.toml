@@ -3,6 +3,7 @@ languageCode = "it"
 title = "Wandere Biker"
 theme = "theme"
 publishDir = ""
+disqusShortName = "https-wandbk-tk"
 
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
