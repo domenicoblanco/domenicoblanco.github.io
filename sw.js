@@ -40,7 +40,7 @@ var urlsToCache = [
 ];
 
 navigateFallback: '/index.html',
-<<<<<<< HEAD
+
   runtimeCaching: [
     {
       urlPattern: /.*\?static\=true/,
@@ -68,11 +68,7 @@ navigateFallback: '/index.html',
       },
     },
   ]
-  
-=======
 
-
->>>>>>> 97539bc90a80fdbf85ab9546d56b55b850840c31
 self.addEventListener('install', function(event) {
   // Perform install steps
   event.waitUntil(
