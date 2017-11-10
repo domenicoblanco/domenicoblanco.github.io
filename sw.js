@@ -2,7 +2,7 @@
 layout: null
 ---
 
-var cacheName = 'wandk-cache-v1.2';
+var cacheName = 'wandk-cache-v1.21';
 var urlsToCache = [
     '/',
     '/index.html',
