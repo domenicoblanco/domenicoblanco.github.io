@@ -5,40 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
-<meta property="og:url" content="https://wandbk.tk"/>
-<meta property="og:title" content="Wandere Biker"/>
-<meta property="og:image" content="/content/img/logo.png"/>
-<meta property="og:description" content="Ritengo che le esperienze in moto siano tra le più belle e formative sotto vari ambiti... Perché non condividerle?"/>
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="theme-color" content="#7C92A7">
-<link rel="icon" sizes="16x16" href="/content/img/logo.png" />
-<link rel="shortcut icon" sizes="1024x1024" href="/content/img/logo.png">
-<link rel="apple-touch-icon-precomposed" sizes="1024x1024" href="/content/img/logo.png">
-<link rel="apple-touch-icon" sizes="1024x1024" href="/content/img/logo.png">
-<link rel="manifest" href="/content/manifest/manifest_webapp.json"/>
 <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
 <link rel="stylesheet" href="{{ "css/font-awesome.min.css" | absURL }}">
 <link rel="stylesheet" href="{{ "css/owl.carousel.css" | absURL }}">
 <link rel="stylesheet" href="{{ "css/owl.theme.css" | absURL }}">
-<link rel="manifest" href="/content/manifest/manifest_notpush.json">
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
-<script>
-  var OneSignal = window.OneSignal || [];
-  OneSignal.push(["init", {
-    appId: "f7b32ac3-49af-457f-a65d-af38522ee887",
-    autoRegister: true,
-        notifyButton: {
-                enable: false
-        },
-        welcomeNotification: {
-                "title": "Wandere Biker",
-                "message": "Grazie per esserti iscritto!",
-        }
-  }]);
-</script>
 <!-- Theme stylesheet, if possible do not edit this stylesheet -->
 {{ with .Site.Params.style }}
   <link href="{{ printf "css/style.%s.css" . | absURL }}" rel="stylesheet" id="theme-stylesheet">
