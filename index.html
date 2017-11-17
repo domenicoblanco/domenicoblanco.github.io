@@ -323,6 +323,17 @@ WebP.src='data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0
 <script src="/js/imagesloaded.pkgd.min.js"></script>
 <script src="/js/owl.carousel.min.js"></script>
 <script src="/js/front.js"></script>
-<script src="/js/winter.js"></script>
+<script src="/js/winter.js"></script> 
+<script type="text/javascript">
+    var a=document.getElementsByTagName("a");
+    for(var i=0;i<a.length;i++)
+    {
+       a[i].onclick=function()
+       {
+           window.location=this.getAttribute("href");
+           return false
+       }
+    }
+</script>
 </body>
 </html>

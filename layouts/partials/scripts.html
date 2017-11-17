@@ -8,4 +8,15 @@
 <script src="{{ "js/imagesloaded.pkgd.min.js" | relURL }}"></script>
 <script src="{{ "js/owl.carousel.min.js" | relURL }}"></script>
 <script src="{{ "js/front.js" | relURL }}"></script>
-<script src="{{ "js/winter.js" | relURL }}"></script>
+<script src="{{ "js/winter.js" | relURL }}"></script> 
+<script type="text/javascript">
+    var a=document.getElementsByTagName("a");
+    for(var i=0;i<a.length;i++)
+    {
+       a[i].onclick=function()
+       {
+           window.location=this.getAttribute("href");
+           return false
+       }
+    }
+</script>
